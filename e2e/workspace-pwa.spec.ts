@@ -10,7 +10,7 @@ test("PWA manifest, offline fallback and private-data cache isolation", async ({
   expect(manifestResponse.ok()).toBe(true);
   const manifest = await manifestResponse.json();
   expect(manifest).toMatchObject({
-    name: "CareLine AI",
+    name: "Clinic Assistant",
     display: "standalone",
     start_url: "/",
   });

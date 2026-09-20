@@ -30,7 +30,7 @@ export function AppearanceSettings({ signedIn }: { signedIn: boolean }) {
     >
       <h2 id="appearance-heading">Appearance</h2>
       <p>
-        Choose how CareLine looks. System follows your device and is the
+        Choose how Clinic Assistant looks. System follows your device and is the
         default.
       </p>
       <fieldset disabled={busy} className="appearance-options">

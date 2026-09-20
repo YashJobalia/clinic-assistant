@@ -68,7 +68,7 @@ export function PwaControls() {
       await prompt.userChoice;
       setPrompt(null);
     } catch {
-      setError("Use your browser's menu to install CareLine.");
+      setError("Use your browser's menu to install Clinic Assistant.");
     } finally {
       setInstalling(false);
     }
@@ -97,7 +97,7 @@ export function PwaControls() {
           <summary>
             <Download size={15} /> Install app
           </summary>
-          <p>Open CareLine in Safari, tap Share, then Add to Home Screen.</p>
+          <p>Open Clinic Assistant in Safari, tap Share, then Add to Home Screen.</p>
         </details>
       )}
       {error && (

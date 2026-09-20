@@ -3,8 +3,8 @@ import type { MetadataRoute } from "next";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     id: "/",
-    name: "CareLine AI",
-    short_name: "CareLine",
+    name: "Clinic Assistant",
+    short_name: "Clinic Assistant",
     description: "Your voice-first conversational AI workspace.",
     start_url: "/",
     scope: "/",

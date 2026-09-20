@@ -18,7 +18,7 @@ export function RecoveryForm({
   );
   return (
     <section className="workspace-panel recovery-card">
-      <span className="eyebrow">CARELINE ACCOUNT ACCESS</span>
+      <span className="eyebrow">CLINIC ASSISTANT ACCOUNT ACCESS</span>
       <h1>{completing ? "Choose a new password" : "Reset your password"}</h1>
       <p>
         {completing
@@ -115,7 +115,7 @@ export function RecoveryForm({
           </button>
         </form>
       )}
-      <a href="/">Return to CareLine</a>
+      <a href="/">Return to Clinic Assistant</a>
       {completing && !done && (
         <p>
           <a href="/reset-password">Request a new reset link</a>

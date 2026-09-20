@@ -38,7 +38,7 @@ export async function POST(req: Request) {
     if (language !== "auto") form.set("language", language);
     form.set(
       "prompt",
-      "CareLine, Maya Shah, Oliver Chen, Amelia Reed, Arjun Patel, Sophia Morgan, Ethan Brooks. Cardiology, dermatology, ENT.",
+      "Clinic Assistant, Maya Shah, Oliver Chen, Amelia Reed, Arjun Patel, Sophia Morgan, Ethan Brooks. Cardiology, dermatology, ENT.",
     );
     const response = await fetch(
       "https://api.openai.com/v1/audio/transcriptions",

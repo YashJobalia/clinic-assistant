@@ -1,6 +1,6 @@
-# CareLine PWA
+# Clinic Assistant PWA
 
-CareLine uses Next.js `app/manifest.ts`, a small service worker, PNG app icons and Apple home-screen metadata. Installation opens the voice workspace in a standalone window. The phone layout has bottom navigation and safe-area padding.
+Clinic Assistant uses Next.js `app/manifest.ts`, a small service worker, PNG app icons and Apple home-screen metadata. Installation opens the voice workspace in a standalone window. The phone layout has bottom navigation and safe-area padding.
 
 ## Install
 

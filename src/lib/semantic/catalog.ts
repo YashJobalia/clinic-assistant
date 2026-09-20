@@ -52,7 +52,7 @@ export function semanticInstructions(actor: {
   guest?: boolean;
   role?: string;
 }) {
-  return `CareLine domain contract ${ontologyVersion}: ${JSON.stringify(semanticCatalog(actor))}`;
+  return `Clinic Assistant domain contract ${ontologyVersion}: ${JSON.stringify(semanticCatalog(actor))}`;
 }
 
 export const toolActions = [

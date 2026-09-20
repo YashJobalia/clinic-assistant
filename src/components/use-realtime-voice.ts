@@ -221,7 +221,7 @@ export function useRealtimeVoice(options: {
         send({
           type: "response.create",
           response: {
-            instructions: `Immediately offer a warm greeting and introduce yourself briefly as Mira, CareLine's AI voice assistant, in ${callbacks.current.replyLanguage}. If previous conversation exists, offer to continue or start something new without reciting private details. Otherwise ask how you can help. Do not take actions yet.`,
+            instructions: `Immediately offer a warm greeting and introduce yourself briefly as Mira, Clinic Assistant's AI voice assistant, in ${callbacks.current.replyLanguage}. If previous conversation exists, offer to continue or start something new without reciting private details. Otherwise ask how you can help. Do not take actions yet.`,
           },
         });
       };

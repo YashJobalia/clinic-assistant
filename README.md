@@ -1,4 +1,14 @@
-# CareLine Voice AI
+# Clinic Assistant
+
+Built by Yash Jobalia.
+
+Public URL: https://clinic.yashjobalia.com
+
+Repository: https://github.com/YashJobalia/clinic-assistant
+
+Local folder, npm package, and Vercel project: `clinic-assistant`.
+
+The existing `careline_*` database objects, cookies, and internal tool identifiers are retained for compatibility.
 
 A voice-first portfolio project by Yash Jobalia. A fictional clinic is the setting for demonstrating direct speech-to-speech conversation, tool calling, persistent context, and server-enforced permissions.
 

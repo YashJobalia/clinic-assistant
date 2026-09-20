@@ -1,6 +1,6 @@
-# CareLine semantic layer
+# Clinic Assistant semantic layer
 
-CareLine's ontology is an application-owned domain model inspired by operational ontologies. It is not a Palantir integration or a general graph database. Version `1.0.0` lives in `src/lib/semantic` and is used at runtime, not only in prompts.
+Clinic Assistant's ontology is an application-owned domain model inspired by operational ontologies. It is not a Palantir integration or a general graph database. Version `1.0.0` lives in `src/lib/semantic` and is used at runtime, not only in prompts.
 
 ```mermaid
 graph LR

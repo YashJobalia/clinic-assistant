@@ -1,4 +1,4 @@
-# Mira, CareLine's voice assistant
+# Mira, Clinic Assistant's voice assistant
 
 Mira has a shared, role-specific website guide in `src/lib/mira-capabilities.ts`. Both text and Realtime instructions include it; `get_capabilities` refreshes it after identity changes. The guide covers navigation, scheduling, profiles, passwords, conversation memory, voice, PWA behavior and unsupported services.
 
@@ -24,7 +24,7 @@ The hosted `careline_search_visits` RPC returns matching appointment IDs only. I
 
 The guest account lookup is separate from private appointment search. Its hosted migration is `20260917075131_account_access_lookup.sql`. Direct database tests cover email and formatted-phone matches, missing accounts, invalid/partial input, unauthenticated rejection, guest profile isolation and the lookup budget. A real model guest conversation returned a verified match for the demo email and opened the private sign-in form rather than offering duplicate registration.
 
-The additive database migration was applied to the hosted CareLine project. Website changes remain local; no Vercel deployment was made.
+The additive database migration was applied to the hosted Clinic Assistant project. Website changes remain local; no Vercel deployment was made.
 
 ## Validation
 

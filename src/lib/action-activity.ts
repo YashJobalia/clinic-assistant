@@ -14,7 +14,7 @@ const labels: Record<string, string> = {
       contract.label,
     ]),
   ),
-  get_ontology: "Read CareLine domain definitions",
+  get_ontology: "Read Clinic Assistant domain definitions",
   get_capabilities: "Check account permissions",
   lookup_account: "Look up an account",
   start_signin: "Open sign-in",

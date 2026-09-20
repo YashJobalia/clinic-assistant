@@ -4,13 +4,13 @@ import "./appearance.css";
 import { AppearanceProvider } from "@/components/appearance-provider";
 import { appearanceScript } from "@/lib/appearance";
 export const metadata: Metadata = {
-  title: "CareLine AI | Conversational Voice Agent",
+  title: "Clinic Assistant | Conversational Voice Agent",
   description:
     "An interactive voice and conversational AI project by Yash Jobalia. Try natural conversation, scheduling tools, multilingual speech, and live diagnostics.",
-  applicationName: "CareLine AI",
+  applicationName: "Clinic Assistant",
   appleWebApp: {
     capable: true,
-    title: "CareLine AI",
+    title: "Clinic Assistant",
     statusBarStyle: "default",
   },
   icons: { apple: "/icons/apple-touch-icon.png" },

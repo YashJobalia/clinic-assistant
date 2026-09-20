@@ -1,6 +1,6 @@
 // Cache only this public offline page and app icons. Account data, transcripts,
 // credentials, API responses and authenticated HTML always stay network-only.
-const CACHE = "careline-public-v1";
+const CACHE = "careline-public-v2";
 const PUBLIC_ASSETS = [
   "/offline.html",
   "/icons/icon-192.png",

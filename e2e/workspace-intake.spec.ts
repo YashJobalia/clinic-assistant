@@ -354,7 +354,7 @@ test("typed requests show a temporary transcript status until the reply arrives"
   await page.route("**/api/assistant", async (route) => {
     await gate;
     await route.fulfill({
-      json: { text: "How can I help with CareLine?", effects: [], traces: [] },
+      json: { text: "How can I help with Clinic Assistant?", effects: [], traces: [] },
     });
   });
   await page.goto("/");
@@ -368,7 +368,7 @@ test("typed requests show a temporary transcript status until the reply arrives"
     .screenshot({ path: "artifacts/mira-thinking.png" });
   release();
   await expect(
-    page.getByText("How can I help with CareLine?", { exact: true }),
+    page.getByText("How can I help with Clinic Assistant?", { exact: true }),
   ).toBeVisible();
   await expect(page.locator(".mira-processing")).toHaveCount(0);
 });

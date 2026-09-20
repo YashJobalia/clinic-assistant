@@ -44,7 +44,7 @@ test("account login, profile, persistent booking, isolation and cancellation", a
   const patientName = "Taylor Demo " + Date.now();
   await signIn(page);
   await page.getByRole("button", { name: "My account", exact: true }).click();
-  await page.getByLabel("Display name").fill("CareLine Tester");
+  await page.getByLabel("Display name").fill("Clinic Assistant Tester");
   await page.getByRole("button", { name: "Save profile" }).click();
   await expect(page.getByRole("status")).toContainText("Profile updated");
   await page.getByRole("button", { name: "Voice demo", exact: true }).click();

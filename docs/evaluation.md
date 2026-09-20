@@ -1,4 +1,4 @@
-# Evaluating CareLine
+# Evaluating Clinic Assistant
 
 Run `npm run eval` for deterministic orchestration and voice-detector tests.
 Run `npm run eval -- --live` for eight real-model conversations with fictional

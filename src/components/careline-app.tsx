@@ -332,7 +332,7 @@ export function CarelineApp() {
       const hello = messages.length
         ? "I'm listening. We can continue our conversation by voice."
         : user
-          ? "Welcome back to CareLine AI. What brings you in today?"
+          ? "Welcome back to Clinic Assistant. What brings you in today?"
           : greeting;
       setMessages((v) =>
         v.length ? v : [{ role: "assistant", content: hello }],
@@ -682,12 +682,12 @@ export function CarelineApp() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <a className="brand" href="/" aria-label="CareLine AI home">
+        <a className="brand" href="/" aria-label="Clinic Assistant home">
           <span className="brand-mark">
             <Plus size={25} />
           </span>
           <span className="brand-copy">
-            <span>CareLine AI</span>
+            <span>Clinic Assistant</span>
             <span className="brand-subtitle">Conversational Voice Agent</span>
           </span>
         </a>
@@ -714,7 +714,7 @@ export function CarelineApp() {
       <div className="main-shell">
         <header className="topbar">
           <div className="breadcrumb">
-            CareLine AI <ChevronRight size={14} />
+            Clinic Assistant <ChevronRight size={14} />
             <strong>{nav.find((n) => n.id === view)?.label}</strong>
           </div>
           <div className="topbar-right">
@@ -1043,7 +1043,7 @@ export function CarelineApp() {
                       messages.map((m, i) => (
                         <div className={`message ${m.role}`} key={i}>
                           <span className="message-label">
-                            {m.role === "assistant" ? "CARELINE" : "YOU"}
+                            {m.role === "assistant" ? "CLINIC ASSISTANT" : "YOU"}
                           </span>
                           <p>{m.content}</p>
                         </div>
@@ -1356,7 +1356,7 @@ export function CarelineApp() {
               </Card>
             ))}
           <footer className="page-footer">
-            <span>CareLine AI · Built by Yash Jobalia</span>
+            <span>Clinic Assistant · Built by Yash Jobalia</span>
             <span>Fictional scheduling demo · America/Chicago</span>
           </footer>
         </main>
@@ -1377,7 +1377,7 @@ export function CarelineApp() {
         </h2>
         <p>
           {authMode === "signin"
-            ? "Sign in to manage your CareLine AI appointments."
+            ? "Sign in to manage your Clinic Assistant appointments."
             : "Create your account for this fictional clinic demo."}
         </p>
         <form onSubmit={submitAuth}>
@@ -1441,7 +1441,7 @@ export function CarelineApp() {
           }}
         >
           {authMode === "signin"
-            ? "New to CareLine AI? Create an account"
+            ? "New to Clinic Assistant? Create an account"
             : "Already have an account? Sign in"}
         </button>
       </dialog>

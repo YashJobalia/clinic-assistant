@@ -69,7 +69,7 @@ export async function POST(req: Request) {
     jar.delete("careline-recovery");
     await client.auth.signOut({ scope: "others" });
     return Response.json(
-      { message: "Password updated. You can return to CareLine." },
+      { message: "Password updated. You can return to Clinic Assistant." },
       { headers: { "Cache-Control": "no-store" } },
     );
   } catch (error) {

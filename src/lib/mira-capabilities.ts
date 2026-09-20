@@ -60,7 +60,7 @@ export function miraCapabilities(user: Pick<Session, "guest" | "role">) {
       "Service failures must be explained accurately, with a retry or supported alternative",
     ],
     memory:
-      "Recent transcript messages are saved per user, up to 200; recent context is supplied to Mira. Audio is processed by OpenAI but not stored in the CareLine database.",
+      "Recent transcript messages are saved per user, up to 200; recent context is supplied to Mira. Audio is processed by OpenAI but not stored in the Clinic Assistant database.",
     voice:
       "Direct OpenAI Realtime WebRTC audio with semantic turn detection, interruption support, parallel transcript events and server-validated tools. Typed chat uses Responses API. Tools enforce the same permissions as manual controls.",
     pwa: "Installable on supported browsers. Offline mode offers a reconnect page; voice, accounts and scheduling require internet.",

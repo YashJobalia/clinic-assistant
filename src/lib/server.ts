@@ -173,7 +173,7 @@ export function failure(error: unknown) {
   if (error instanceof HttpError)
     return Response.json({ error: error.message }, { status: error.status });
   console.error(
-    "CareLine request failed",
+    "Clinic Assistant request failed",
     error instanceof Error ? error.name : "unknown",
   );
   return Response.json(

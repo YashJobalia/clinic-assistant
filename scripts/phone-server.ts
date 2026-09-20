@@ -222,7 +222,7 @@ sockets.on("connection", (ws) => {
     } catch {
       if (current === version)
         say(
-          "I couldn't complete that request. Please try again or use the CareLine website.",
+          "I couldn't complete that request. Please try again or use the Clinic Assistant website.",
         );
     } finally {
       if (current === version) busy = false;
@@ -230,5 +230,5 @@ sockets.on("connection", (ws) => {
   });
 });
 server.listen(Number(process.env.PHONE_PORT || 3001), () =>
-  console.log("CareLine phone bridge listening"),
+  console.log("Clinic Assistant phone bridge listening"),
 );

@@ -45,7 +45,7 @@ export function ConversationLab({
     );
     const link = document.createElement("a");
     link.href = url;
-    link.download = "careline-diagnostics.json";
+    link.download = "clinic-assistant-diagnostics.json";
     link.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   }

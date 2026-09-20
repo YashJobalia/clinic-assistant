@@ -5,7 +5,7 @@ export const transcriptionPrompt =
   "For Hindi or Hinglish speech, write Hindi words in Devanagari and retain English words in Latin script. " +
   "Do not render Hindi speech in Urdu/Arabic script. For ambiguous shared Hindi/Urdu vocabulary, prefer Hindi Devanagari unless the speaker explicitly requests Urdu. " +
   "Preserve Urdu when explicitly requested and preserve all other languages in their normal scripts. " +
-  "Names: CareLine, Maya Shah, Oliver Chen, Amelia Reed, Arjun Patel, Sophia Morgan, Ethan Brooks.";
+  "Names: Clinic Assistant, Maya Shah, Oliver Chen, Amelia Reed, Arjun Patel, Sophia Morgan, Ethan Brooks.";
 
 export const replyLanguages = [
   "English",

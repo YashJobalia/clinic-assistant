@@ -120,4 +120,4 @@ export function practiceSlots(now = new Date()): Slot[] {
   return slots;
 }
 export const greeting =
-  "Hi, welcome to CareLine AI. I'm your AI receptionist. How can I help you today?";
+  "Hi, welcome to Clinic Assistant. I'm your AI receptionist. How can I help you today?";

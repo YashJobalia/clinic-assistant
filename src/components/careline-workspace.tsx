@@ -362,12 +362,12 @@ export function CarelineWorkspace() {
   return (
     <div className="app-shell careline-workspace">
       <aside className="sidebar">
-        <a className="brand" href="/" aria-label="CareLine AI home">
+        <a className="brand" href="/" aria-label="Clinic Assistant home">
           <span className="brand-mark">
             <Plus size={25} />
           </span>
           <span className="brand-copy">
-            <span>CareLine AI</span>
+            <span>Clinic Assistant</span>
             <span className="brand-subtitle">Conversational Voice Agent</span>
           </span>
         </a>
@@ -406,7 +406,7 @@ export function CarelineWorkspace() {
       <div className="main-shell">
         <header className="topbar">
           <div className="breadcrumb">
-            CareLine AI <ChevronRight size={14} />
+            Clinic Assistant <ChevronRight size={14} />
             <strong>{nav.find((n) => n.id === display.page)?.label}</strong>
           </div>
           <div className="topbar-right">
@@ -533,7 +533,7 @@ export function CarelineWorkspace() {
               </div>
               <h2 className="caller-name">Mira</h2>
               <p className="caller-description">
-                CareLine's AI voice assistant
+                Clinic Assistant's AI voice assistant
               </p>
               <div
                 className="call-activity"
@@ -1080,7 +1080,7 @@ export function CarelineWorkspace() {
           </details>
           <footer className="workspace-footer">
             <span>
-              CareLine AI - Built by{" "}
+              Clinic Assistant - Built by{" "}
               <a
                 href="https://yashjobalia.com"
                 target="_blank"
